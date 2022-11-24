@@ -2,6 +2,8 @@ import Bleed from 'nextra-theme-docs/bleed'
 
 # 如何组织CSS
 
+按以下顺序书写CSS样式，主要原则是区分优先级的分类
+
 ## SASS继承(Sass Inheritance)
 `@extend`, `@mixin, 像clearfix`
 
@@ -10,3 +12,24 @@ import Bleed from 'nextra-theme-docs/bleed'
 
 ## 位置和布局(Position and Layout)
 `position`, `z-index`, `top`, `bottom`, `left`, `right`, `Flexbox属性`, `float`, `clear`
+
+## 显示和可见性(Display and Visibility)
+`display`, `opacity`, `transform`
+
+## 裁剪(Clipping)
+`overflow`, `clip`
+
+## 动画(Animation)
+`animation`, `transition`
+
+## 盒模型(Box model, 从外到内)
+`margin`, `box-shadow`, `border`, `border-radius`, `box-sizing`, `width`, `height`, `padding`
+
+## 背景(Background)
+`background`, `cursor`
+
+## 排版(Typegraphy)
+`font-size`, `line-height`, `font-family`, `font-weight`, `font-style`, `text-align`, `text-transform`, `word-spacing`, `color`
+
+## 伪类和伪元素(Pseudo-class and pseudo-elements)
+`:hover`, `:focus`, `:active`, `:before`, `:after`, `:first-child`, `:last-child`
