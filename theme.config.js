@@ -1,6 +1,6 @@
 export default {
-  github: 'https://github.com/perry2008084/nextjs-docs',
-  docsRepositoryBase: 'https://github.com/perry2008084/nextjs-docs/blob/master',
+  github: 'https://github.com/perry2008084/css-organize-guide',
+  docsRepositoryBase: 'https://github.com/perry2008084/css-organize-guide/blob/master',
   titleSuffix: '',
   logo: (
     <>
