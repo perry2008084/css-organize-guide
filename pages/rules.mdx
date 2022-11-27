@@ -6,9 +6,6 @@ import Bleed from 'nextra-theme-docs/bleed'
 
 1. 从最重要到不重要。那么什么是重要？会影响布局和尺寸的规则。在盒子内部或者不会影响布局/尺寸的为不重要。
 2. 按CSS规范组合属于一类的CSS属性，比如: 定位、float/clear、font-*、text-*。
-3. 在CSS规范中定义的CSS布局顺序：
-`position: absolute`可能会覆盖`float:left/right`，`float: left/right`可能会覆盖`display`，除了`display: none`。
-因此顺序是 position, float, display。
-文本是在布局在行框盒子上的，接着是单词，再者是字形。因此顺序是`font-size`和`line-height`优先，其次`text-*`，然后是`word-*`。
+3. 在CSS规范中定义的CSS布局顺序：`position: absolute`可能会覆盖`float:left/right`，`float: left/right`可能会覆盖`display`，除了`display: none`。因此顺序是 position, float, display。文本是在布局在行框盒子上的，接着是单词，再者是字形。因此顺序是`font-size`和`line-height`优先，其次`text-*`，然后是`word-*`。
 4. 按盒模型顺序，从外到内。
 5. 顺时针顺序，*-top, *-right, *-bottom, *-left
