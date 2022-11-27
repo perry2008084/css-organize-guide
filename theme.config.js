@@ -1,6 +1,6 @@
 export default {
   github: 'https://github.com/perry2008084/css-organize-guide',
-  docsRepositoryBase: 'https://github.com/perry2008084/css-organize-guide/blob/master',
+  docsRepositoryBase: 'https://github.com/perry2008084/css-organize-guide/blob/main',
   titleSuffix: '',
   logo: (
     <>
@@ -16,15 +16,15 @@ export default {
       <meta name="theme-color" content="#ffffff" />
       <meta name="viewport" content="width=device-width, initial-scale=1.0" />
       <meta httpEquiv="Content-Language" content="en" />
-      <meta name="description" content="Nextra: the Next.js site builder" />
-      <meta name="og:description" content="Nextra: the Next.js site builder" />
+      <meta name="description" content="css organize guide" />
+      <meta name="og:description" content="css organize guide" />
       <meta name="twitter:card" content="summary_large_image" />
       <meta name="twitter:image" content="https://nextra.vercel.app/og.png" />
-      <meta name="twitter:site:domain" content="nextra.vercel.app" />
-      <meta name="twitter:url" content="https://nextra.vercel.app" />
-      <meta name="og:title" content="Nextra: Next.js static site generator" />
+      <meta name="twitter:site:domain" content="css-organize-guide.vercel.app" />
+      <meta name="twitter:url" content="https://css-organize-guide.vercel.app" />
+      <meta name="og:title" content="css organize guide" />
       <meta name="og:image" content="https://nextra.vercel.app/og.png" />
-      <meta name="apple-mobile-web-app-title" content="Nextra" />
+      <meta name="apple-mobile-web-app-title" content="css-organize-guide" />
       <link
         rel="apple-touch-icon"
         sizes="180x180"
